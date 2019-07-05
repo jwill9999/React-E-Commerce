@@ -1,7 +1,6 @@
-
+import React, { Component } from 'react';
+import HomePage from "./components/homepage/homePage";
 import './App.css';
-
-import React, { Component } from 'react'
 
 export default class App extends Component
 {
@@ -10,7 +9,7 @@ export default class App extends Component
     {
         return (
             <div>
-                <h1>App</h1>
+                <HomePage />
             </div>
         )
     }
